@@ -3,9 +3,10 @@
 
 #include "framework.h"
 #include "Github.h"
+#include "windows.h"
 
 #define MAX_LOADSTRING 100
-
+#define MAX_PORT 8080
 // 全局变量:
 HINSTANCE hInst;                                // 当前实例
 WCHAR szTitle[MAX_LOADSTRING];                  // 标题栏文本
